@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Dancing+Script:wght@400;500;600;700&family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Title boshlandi */
+
+.title{
+    margin: 70px 70px 50px;
+}
+
+.title h2{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #706969a4;
+}
+
+
+
+/* Choice div boshlandi */
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.items{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    background-color: azure;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.items:hover{
+    color: #fff;
+    background-color: rgba(78, 140, 203, 0.77);
+}
+
+ul .items img{
+    margin-top: 20px;
+}
+
+ul .items p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+ 
+ul .items input{
+    font-size: 12px;
+    opacity: 0;
+    min-width: 200px;
+    height: 25px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+ul .items input:active{
+    background-color: #706969;
+}
+
+.items:hover input{
+    transition: 0.3s;
+    opacity: 100;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.104);
+}
